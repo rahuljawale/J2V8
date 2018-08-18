@@ -54,7 +54,7 @@ public class LibraryLoaderTest {
     public void testGetOSWindows() {
         System.setProperty("os.name", "Windows");
 
-        assertEquals("win32", LibraryLoader.getOS());
+        assertEquals("windows", LibraryLoader.getOS());
     }
 
     @Test
