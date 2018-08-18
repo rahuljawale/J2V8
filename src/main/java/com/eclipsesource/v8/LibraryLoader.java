@@ -206,7 +206,7 @@ class LibraryLoader {
 
     static String getOS() {
         if (isWindows()) {
-            return "win32";
+            return "windows";
         } else if (isMac()) {
             return "macosx";
         } else if (isLinux() && !isAndroid()) {
